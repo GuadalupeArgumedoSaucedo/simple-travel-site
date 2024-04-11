@@ -1,36 +1,45 @@
 body{
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    background-color: rgb(255, 72, 0);
+    background-color: rgba(247, 224, 21, 0.74);
 }
 container {
     width: 80%;
     margin: 0 auto;
 }
 header {
-    background-color: rgb(251, 255, 10);
+    background-color: rgba(235, 61, 30, 0.952);
     color: white;
     padding: 10px;
     text-align: center;
-    }
+}
 nav {
         float: left;
-        width: 20%;
-        background-color: #f2f2f2;
+        width: 100%;
+        background-color: #ff7b00;
         padding: 10px;
-    }
+}
 nav a {
         text-decoration: none;
-        color: rgb(41, 243, 14);
-    }
+        color: rgb(255, 255, 255);
+}
 content {
         float: left;
         width: 80%;
         padding: 10px;
-    }
-    footer {
-        background-color: rgb(42, 6, 248);
+}
+footer {
+        background-color: rgb(75, 16, 212);
         color: white;
         text-align: center;
         clear: both;
         padding: 10px;
-    }    
+}    
+.oswald{
+    font-family: "oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.pic-table{
+    border: 10px solid black;
+}
