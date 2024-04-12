@@ -42,4 +42,6 @@ footer {
 }
 .pic-table{
     border: 10px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
